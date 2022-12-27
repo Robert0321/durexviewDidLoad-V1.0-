@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.white
         let durexEmitterCell = CAEmitterCell()
         durexEmitterCell.contents = UIImage(named: "durex")?.cgImage
-        durexEmitterCell.scale = 0.02 //鈔票大小
+        durexEmitterCell.scale = 0.02 //durex大小
         durexEmitterCell.lifetime = 15.0 //出現時間(秒)
         durexEmitterCell.birthRate = 10 //一秒生幾個
         durexEmitterCell.velocity = -10 //移動速度
